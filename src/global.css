@@ -1,7 +1,45 @@
 /* To learn more about how to use Tailwind in your CSS, visit https://tailwindcss.com/ */
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
+:root {
+  --main-bg-color: #ffc65c;
+  --main-fg-color: #2a2829;
+}
+
+html,
+body {
+  margin: 0;
+  color: var(--main-fg-color);
+  font-family: "Oxygen", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: var(--main-fg-color);
+  line-height: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+code {
+  background-color: var(--main-fg-color);
+  /* padding: 3rem; */
+  width: 100%;
+  color: var(--main-bg-color);
+}

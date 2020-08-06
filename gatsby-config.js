@@ -12,14 +12,14 @@ module.exports = {
     title: `this`,
     author: {
       name: `Claire Froelich`,
-      summary: `coder and observer`,
     },
-    description: `Life observations inspired by math, coding and science`,
+    description: `Poking at the ambiguous 'this' in this life, inspired by math, coding and science`,
     siteUrl: `https://www.clairefroelichdev.com/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet-async`,
+    `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
