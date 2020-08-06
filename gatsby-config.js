@@ -13,7 +13,7 @@ module.exports = {
     author: {
       name: `Claire Froelich`,
     },
-    description: `Poking at the ambiguous 'this' in this life, inspired by math, coding and science`,
+    description: `Contemplating the 'this' in this life, inspired by math, coding and science`,
     siteUrl: `https://www.clairefroelichdev.com/`,
   },
   plugins: [
