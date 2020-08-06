@@ -8,7 +8,15 @@ require("dotenv").config({
 })
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `this`,
+    author: {
+      name: `Claire Froelich`,
+      summary: `coder and observer`,
+    },
+    description: `Life observations inspired by math, coding and science`,
+    siteUrl: `https://www.clairefroelichdev.com/`,
+  },
   plugins: [
     `gatsby-plugin-postcss`,
     {
@@ -22,7 +30,6 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `to8vy027sqma`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.GATSBY_CONTENTFUL_DELIVERY_KEY,
       },
     },
@@ -30,7 +37,6 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `to8vy027sqma`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.GATSBY_CONTENTFUL_PREVIEW_KEY,
         host: `preview.contentful.com`,
       },
