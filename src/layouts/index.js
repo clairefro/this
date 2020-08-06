@@ -8,7 +8,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <HelmetProvider>
-        <Link to="/">this</Link>
+        <Link to="/" className="text-4xl">
+          this
+        </Link>
         {children}
       </HelmetProvider>
     </>

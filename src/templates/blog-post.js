@@ -9,9 +9,9 @@ export default props => {
   // const content = documentToReactComponents(post.body.json, richTextOptions)
 
   return (
-    <div className="container mx-auto mt-6">
+    <div className="container mx-auto mt-6 max-w-screen-sm">
       <h1 className="mb-2 text-3xl">{post.title}</h1>
-      <div>{post.createdAt}</div>
+      <div className="mb-4">{post.createdAt}</div>
       <div>{post.body.body}</div>
     </div>
   )
