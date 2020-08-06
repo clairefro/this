@@ -16,6 +16,8 @@
   "dependencies": {
     "gatsby": "2.24.26",
     "gatsby-plugin-postcss": "2.3.11",
+    "gatsby-source-contentful": "^2.3.35",
+    "gatsby-source-filesystem": "^2.3.24",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
