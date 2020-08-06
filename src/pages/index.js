@@ -5,7 +5,6 @@ export default ({ data }) => {
   const posts = data.allContentfulPost.nodes
   return (
     <div className="container mx-auto mt-6 max-w-screen-sm">
-      <div>Hello world!</div>
       <ul>
         {posts.map((p, i) => (
           <li key={i}>

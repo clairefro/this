@@ -28,6 +28,9 @@ p {
   color: var(--main-fg-color);
   line-height: 2rem;
 }
+p {
+  margin-bottom: 2rem;
+}
 
 * {
   box-sizing: border-box;
@@ -37,9 +40,13 @@ body {
   background-color: var(--main-bg-color);
 }
 
-code {
+code,
+pre {
   background-color: var(--main-fg-color);
   /* padding: 3rem; */
   width: 100%;
   color: var(--main-bg-color);
+}
+pre {
+  padding: 1rem;
 }
